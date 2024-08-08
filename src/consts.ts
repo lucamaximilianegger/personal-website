@@ -2,9 +2,9 @@ import type { Site, Page, Links, Socials } from "@types"
 
 // Global
 export const SITE: Site = {
-  TITLE: "Astro Sphere",
-  DESCRIPTION: "Welcome to Astro Sphere, a portfolio and blog for designers and developers.",
-  AUTHOR: "Mark Horn",
+  TITLE: "Home",
+  DESCRIPTION: "Welcome to my personal website, a portfolio and blog about me and my life.",
+  AUTHOR: "Luca Maximilian Egger",
 }
 
 // Work Page
@@ -39,43 +39,43 @@ export const SEARCH: Page = {
 
 // Links
 export const LINKS: Links = [
-  { 
-    TEXT: "Home", 
-    HREF: "/", 
+  {
+    TEXT: "Home",
+    HREF: "/",
   },
-  { 
-    TEXT: "Work", 
-    HREF: "/work", 
+  {
+    TEXT: "Work",
+    HREF: "/work",
   },
-  { 
-    TEXT: "Education", 
-    HREF: "/education", 
+  {
+    TEXT: "Education",
+    HREF: "/education",
   },
-  { 
-    TEXT: "Blog", 
-    HREF: "/blog", 
+  {
+    TEXT: "Blog",
+    HREF: "/blog",
   },
-  { 
-    TEXT: "Projects", 
-    HREF: "/projects", 
+  {
+    TEXT: "Projects",
+    HREF: "/projects",
   },
 ]
 
 // Socials
 export const SOCIALS: Socials = [
-  { 
+  {
     NAME: "Email",
-    ICON: "email", 
+    ICON: "email",
     TEXT: "lucamaximilian.dev@egger.vision",
     HREF: "mailto:lucamaximilian.dev@egger.vision",
   },
-  { 
+  {
     NAME: "Github",
     ICON: "github",
     TEXT: "lucamaximilianegger-dev",
     HREF: "https://github.com/lucamaximilianegger-dev"
   },
-  { 
+  {
     NAME: "LinkedIn",
     ICON: "linkedin",
     TEXT: "markhorn-dev",
