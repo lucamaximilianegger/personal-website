@@ -2,16 +2,18 @@
 services:
   astro:
     build: .
-    ports:
-      - "3000:3000"
+    container_name: prod0-personal-website
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    networks:
+      - frontend
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.astro.rule=Host(`astro.dreamnetwork.space`)"
+      - "traefik.http.routers.astro.rule=Host(`lucamaximilian.dreamnetwork.space`)"
       - "traefik.http.routers.astro.entrypoints=websecure"
       - "traefik.http.routers.astro.tls.certresolver=cloudflare"
       - "traefik.http.services.astro.loadbalancer.server.port=3000"
-    networks:
-      - frontend
 
 networks:
   frontend:
