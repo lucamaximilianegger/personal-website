@@ -13,8 +13,8 @@ const work = defineCollection({
 const education = defineCollection({
   type: "content",
   schema: z.object({
-    company: z.string(),
-    role: z.string(),
+    comeducational_instituationpany: z.string(),
+    graduation: z.string(),
     dateStart: z.coerce.date(),
     dateEnd: z.union([z.coerce.date(), z.string()]),
   }),
