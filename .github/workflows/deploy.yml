@@ -3,7 +3,11 @@ name: Deploy to Docker
 on:
   push:
     branches:
-      - main  
+      - main
+    paths:
+      - 'src/**'
+      - 'Dockerfile'
+      - 'docker-compose.yml'
 
 jobs:
   deploy:
