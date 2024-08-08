@@ -4,18 +4,16 @@ import PageLayout from "@layouts/PageLayout.astro";
 import TopLayout from "@layouts/TopLayout.astro";
 import BottomLayout from "@layouts/BottomLayout.astro";
 import { EDUCATION } from "@consts";
+import type { CollectionEntry } from 'astro:content';
 
-interface EducationEntry {
-  data: {
-    dateStart: string;
-    dateEnd?: string;
-    educational_institution: string;
-    role: string;
-  };
-  render: () => Promise<{ Content: any }>;
+interface EducationData {
+  dateStart: string;
+  dateEnd?: string;
+  educational_institution: string;
+  role: string;
 }
 
-const collection = await getCollection("education");
+const collection = await getCollection<EducationData>("education");
 
 collection.sort((a, b) => new Date(b.data.dateStart).getTime() - new Date(a.data.dateStart).getTime());
 
