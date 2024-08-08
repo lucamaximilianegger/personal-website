@@ -13,6 +13,12 @@ export const WORK: Page = {
   DESCRIPTION: "Places I have worked.",
 }
 
+// Education Page
+export const EDUCATION: Page = {
+  TITLE: "Education",
+  DESCRIPTION: "Places I educated myself.",
+}
+
 // Blog Page
 export const BLOG: Page = {
   TITLE: "Blog",
@@ -42,6 +48,10 @@ export const LINKS: Links = [
     HREF: "/work", 
   },
   { 
+    TEXT: "Education", 
+    HREF: "/education", 
+  },
+  { 
     TEXT: "Blog", 
     HREF: "/blog", 
   },
@@ -56,26 +66,20 @@ export const SOCIALS: Socials = [
   { 
     NAME: "Email",
     ICON: "email", 
-    TEXT: "markhorn.dev@gmail.com",
-    HREF: "mailto:markhorn.dev@gmail.com",
+    TEXT: "lucamaximilian.dev@egger.vision",
+    HREF: "mailto:lucamaximilian.dev@egger.vision",
   },
   { 
     NAME: "Github",
     ICON: "github",
-    TEXT: "markhorn-dev",
-    HREF: "https://github.com/markhorn-dev/astro-sphere"
+    TEXT: "lucamaximilianegger-dev",
+    HREF: "https://github.com/lucamaximilianegger-dev"
   },
   { 
     NAME: "LinkedIn",
     ICON: "linkedin",
     TEXT: "markhorn-dev",
-    HREF: "https://www.linkedin.com/in/markhorn-dev/",
-  },
-  { 
-    NAME: "Twitter",
-    ICON: "twitter-x",
-    TEXT: "markhorn_dev",
-    HREF: "https://twitter.com/markhorn_dev",
+    HREF: "https://www.linkedin.com/in/lucamaximilianegger/",
   },
 ]
 

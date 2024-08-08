@@ -42,4 +42,4 @@ const legal = defineCollection({
   }),
 })
 
-export const collections = { work, blog, projects, legal }
+export const collections = { work, education, blog, projects, legal }
