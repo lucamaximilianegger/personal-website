@@ -7,7 +7,7 @@ on:
     paths:
       - 'src/**'
       - 'Dockerfile'
-      - 'docker-compose.yml'
+      - 'compose.yml'
 
 jobs:
   deploy:
