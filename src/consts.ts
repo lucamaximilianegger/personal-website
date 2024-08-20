@@ -3,38 +3,38 @@ import type { Site, Page, Links, Socials } from "@types"
 // Global
 export const SITE: Site = {
   TITLE: "Home",
-  DESCRIPTION: "Welcome to my personal website, a portfolio and blog about me and my life.",
+  DESCRIPTION: "Welcome to Luca Maximilian Egger's website. Explore projects, blog posts on IT and security, and insights into my professional journey.",
   AUTHOR: "Luca Maximilian Egger",
 }
 
 // Work Page
 export const WORK: Page = {
   TITLE: "Work",
-  DESCRIPTION: "Places I have worked.",
+  DESCRIPTION: "An overview of the companies and roles I've been involved in within IT and system integration.",
 }
 
 // Education Page
 export const EDUCATION: Page = {
   TITLE: "Education",
-  DESCRIPTION: "Places I educated myself.",
+  DESCRIPTION: "A look into my educational background and qualifications in IT security and system integration.",
 }
 
 // Blog Page
 export const BLOG: Page = {
   TITLE: "Blog",
-  DESCRIPTION: "Writing on topics I am passionate about.",
+  DESCRIPTION: "Articles and tutorials on IT, security, and technology written by me.",
 }
 
 // Projects Page 
 export const PROJECTS: Page = {
   TITLE: "Projects",
-  DESCRIPTION: "Recent projects I have worked on.",
+  DESCRIPTION: "A showcase of my recent IT projects and developments in system integration.",
 }
 
 // Search Page
 export const SEARCH: Page = {
   TITLE: "Search",
-  DESCRIPTION: "Search all posts and projects by keyword.",
+  DESCRIPTION: "Search my website for posts, projects, and pages using relevant keywords.",
 }
 
 // Links
@@ -72,13 +72,13 @@ export const SOCIALS: Socials = [
   {
     NAME: "Github",
     ICON: "github",
-    TEXT: "lucamaximilianegger-dev",
-    HREF: "https://github.com/lucamaximilianegger-dev"
+    TEXT: "lucamaximilianegger",
+    HREF: "https://github.com/lucamaximilianegger"
   },
   {
     NAME: "LinkedIn",
     ICON: "linkedin",
-    TEXT: "markhorn-dev",
+    TEXT: "lucamaximilianegger",
     HREF: "https://www.linkedin.com/in/lucamaximilianegger/",
   },
 ]
